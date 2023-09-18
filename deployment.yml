@@ -6,5 +6,7 @@ jobs:
    schedule: 0 0 * * * # This example will run every day at midnight.
    steps:
      - name: run models
-       command: dbt run 
+       command: dbt run
+     - name: test models
+       command: dbt test
 
