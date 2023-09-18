@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: stg_football_matches
+    description: Table from 538 that displays football matches and predictions about each match.
+
+  - name: stg_football_rankings
+    description: Table from 538 that displays a teams ranking worldwide
