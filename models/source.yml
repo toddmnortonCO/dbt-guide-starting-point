@@ -1,4 +1,7 @@
 version: 2
 
 sources:
-  - name: 
+  - name: bigquery_db_dbo
+    tables: 
+      - name: stg_football_matches
+      - name: stg_football_rankings
