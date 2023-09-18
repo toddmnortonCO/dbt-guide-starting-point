@@ -3,5 +3,5 @@ version: 2
 sources:
   - name: bigquery_db
     tables: 
-      - name: stg_football_matches
-      - name: stg_football_rankings
+      - name: dbt-demos-399416.538_football.stg_football_matches
+      - name: dbt-demos-399416.538_football.stg_football_rankings
