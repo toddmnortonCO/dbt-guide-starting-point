@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: bigquery_db
+  - name: bigquery_db_new_schema
     tables: 
-      - name: dbt-demos-399416.538_football.stg_football_matches
-      - name: dbt-demos-399416.538_football.stg_football_rankings
+      - name: stg_football_matches
+      - name: stg_football_rankings
